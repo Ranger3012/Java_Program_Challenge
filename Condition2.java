@@ -10,7 +10,7 @@ class Condition2{
         marksObtained = sc.nextInt();
         passingMarks = 40;
 
-        if(marksObtained >= 40){
+        if(marksObtained >= passingMarks){
             System.out.println("You Passed!");
         }else{
             System.out.println("Do more hardwork!");
