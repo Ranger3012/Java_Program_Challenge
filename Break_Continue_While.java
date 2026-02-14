@@ -19,7 +19,7 @@ class Break_While_Loop{
             if (person_working_Loop.equals("y")) {
                 number_Loop -= 1;
                 System.out.println("now the loop number is: " + number_Loop);
-                continue;
+                //continue;
             } else {
             break;
         }
